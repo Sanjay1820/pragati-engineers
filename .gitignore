@@ -1,0 +1,11 @@
+node_modules/
+dist-home/
+.vercel/
+scratch/
+*.log
+/*.png
+.env
+.env.*
+!.env.example
+.DS_Store
+Thumbs.db

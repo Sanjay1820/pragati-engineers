@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Products Catalog | Pragati Engineers - Precision Industrial & Loom Rollers</title>
+  <meta name="description" content="Explore Pragati Engineers' seven loom cloth rollers for Tsudakoma, Toyota, Picanol, Itema, Waterjet, Sulzer, and Somet weaving looms.">
+  <link rel="shortcut icon" href="assets/images/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+  <!-- Top Utility Bar -->
+  <aside class="top-bar">
+    <div class="container top-bar-inner">
+      <div class="top-bar-left">
+        <span class="top-bar-item">
+          <i class="fa-solid fa-phone-volume"></i>
+          <a href="tel:+917405456380">+91 74054 56380</a> / <a href="tel:+917048207620">+91 70482 07620</a>
+        </span>
+        <span class="top-bar-item">
+          <i class="fa-solid fa-envelope"></i>
+          <a href="mailto:sales@pragatiroller.com">sales@pragatiroller.com</a>
+        </span>
+      </div>
+      <div class="top-bar-right">
+        <span class="top-bar-item">
+          <i class="fa-solid fa-location-dot"></i>
+          <span>Bakrol, Ahmedabad, Gujarat - 382430</span>
+        </span>
+        <span class="top-badge">
+          <i class="fa-solid fa-award"></i> Legacy Since 1985
+        </span>
+      </div>
+    </div>
+  </aside>
+
+  <!-- Main Navigation Header -->
+  <header class="header-main">
+    <div class="container header-inner">
+      <a href="index.html" class="brand-logo" aria-label="Pragati Engineers Home">
+        <img src="assets/images/logo.png" alt="Pragati Engineers - Precision Industrial Rollers">
+      </a>
+
+      <nav class="nav-menu" id="navMenu">
+        <div class="nav-item">
+          <a href="index.html" class="nav-link">Home</a>
+        </div>
+        <div class="nav-item">
+          <a href="about.html" class="nav-link">About Us</a>
+        </div>
+        <div class="nav-item dropdown">
+          <a href="products.html" class="nav-link active">
+            Products <i class="fa-solid fa-chevron-down" style="font-size: 0.75rem;"></i>
+          </a>
+          <div class="dropdown-menu">
+            <a href="#looms" class="dropdown-item">
+              <span>Looms Cloth Rolls</span> <i class="fa-solid fa-chevron-right" style="font-size: 0.7rem;"></i>
+            </a>
+          </div>
+        </div>
+        <div class="nav-item">
+          <a href="infrastructure.html" class="nav-link">Infrastructure</a>
+        </div>
+        <div class="nav-item">
+          <a href="contact.html" class="nav-link">Contact Us</a>
+        </div>
+      </nav>
+
+      <div class="header-action">
+        <a href="contact.html#quote-form" class="btn btn-primary">
+          <i class="fa-solid fa-file-invoice"></i> Get Quote
+        </a>
+        <button type="button" class="mobile-nav-toggle" id="mobileNavToggle" aria-label="Toggle navigation menu">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Page Banner -->
+  <section class="inner-page-banner">
+    <div class="container">
+      <h1 class="inner-banner-title">Our Products &amp; Engineering Solutions</h1>
+      <nav class="breadcrumbs" aria-label="Breadcrumb">
+        <a href="index.html">Home</a>
+        <i class="fa-solid fa-chevron-right" style="font-size: 0.75rem;"></i>
+        <span class="current">Products</span>
+      </nav>
+    </div>
+  </section>
+
+  <!-- Search & Filter Bar -->
+  <section style="background: #ffffff; padding: 25px 0; border-bottom: 1px solid var(--steel-border);">
+    <div class="container" style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 20px;">
+      <div style="flex: 1; max-width: 480px; position: relative;">
+        <i class="fa-solid fa-magnifying-glass" style="position: absolute; left: 16px; top: 14px; color: var(--steel-muted);"></i>
+        <input type="text" id="productSearch" class="form-control" placeholder="Search by roller name, loom brand, or material..." style="padding-left: 45px; border-radius: var(--radius-full);">
+      </div>
+      <div>
+        <span style="font-size: 0.88rem; color: var(--steel-muted); font-weight: 600;">
+          Showing Precision Rollers for Japanese, European &amp; Chinese Looms and Industrial Machinery
+        </span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Main Catalog Content -->
+  <main class="section-py bg-light">
+    <div class="container">
+
+      <!-- Category Filter Tabs -->
+      <div class="product-tabs-nav">
+        <button type="button" class="tab-btn active" data-category="all">
+          <i class="fa-solid fa-border-all"></i> All Products (7)
+        </button>
+        <button type="button" class="tab-btn" data-category="looms">
+          <i class="fa-solid fa-scroll"></i> Looms Cloth Rolls
+        </button>
+      </div>
+
+      <!-- Overview Banner of all Looms Rollers -->
+      <div id="productOverview" style="background: #ffffff; border-radius: var(--radius-lg); padding: 30px; margin-bottom: 45px; border: 1px solid var(--steel-border); box-shadow: var(--shadow-sm); display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 30px;">
+        <div style="flex: 1; min-width: 300px;">
+          <span class="badge-tag"><i class="fa-solid fa-star"></i> Featured Range</span>
+          <h2 style="font-family: var(--font-heading); font-size: 1.8rem; font-weight: 800; color: var(--primary-navy); margin-bottom: 12px;">
+            Full Range of Weaving Loom Cloth Rollers
+          </h2>
+          <p style="color: var(--steel-muted); font-size: 0.95rem; line-height: 1.6; margin-bottom: 20px;">
+            Manufactured in our dedicated Unit 1 facility for Japanese (Tsudakoma, Toyota), European (Picanol, Itema, Sulzer, Somet), and Chinese airjet, waterjet &amp; rapier looms from 170 cm to 400 cm widths.
+          </p>
+          <a href="product-detail.html?product=tsudakoma" class="btn btn-primary">
+            <i class="fa-solid fa-download"></i> Request Full Technical Specs
+          </a>
+        </div>
+        <div style="max-width: 420px; border-radius: var(--radius-md); overflow: hidden; border: 1px solid var(--steel-border);">
+          <img src="assets/images/products/all.webp" alt="Pragati Engineers All Loom Rollers Range">
+        </div>
+      </div>
+
+      <!-- Product Cards Grid -->
+      <div class="products-grid">
+
+        <!-- ==================== 1. LOOMS CLOTH ROLLS ==================== -->
+        <!-- Tsudakoma Cloth roll -->
+        <article class="product-card" data-category="looms" id="tsudakoma">
+          <div class="product-thumb">
+            <span class="product-badge-cat">1.a Looms Cloth Roll</span>
+            <img src="assets/images/products/tsudakoma.webp" alt="Tsudakoma cloth roll">
+          </div>
+          <div class="product-body">
+            <h3 class="product-title">Tsudakoma Cloth Roll</h3>
+            <p class="product-desc">
+              Precision take-up cloth roller for Japanese Tsudakoma ZAX, ZAX-N, ZAX9100, and ZW airjet/waterjet looms. Zero deflection at peak tension.
+            </p>
+            <div class="product-specs-list">
+              <div class="spec-row"><span class="spec-label">Loom Models:</span><span class="spec-val">Tsudakoma ZAX9100 / 9200</span></div>
+              <div class="spec-row"><span class="spec-label">Widths:</span><span class="spec-val">170 cm to 390 cm</span></div>
+              <div class="spec-row"><span class="spec-label">Shaft Drive:</span><span class="spec-val">CNC Machined Keyways</span></div>
+            </div>
+            <div class="product-actions">
+              <a href="product-detail.html?product=tsudakoma" class="btn btn-primary"><i class="fa-solid fa-file-invoice"></i> Get Quote</a>
+              <button type="button" class="btn btn-outline wa-direct-chat" data-product="Tsudakoma Cloth Roll">
+                <i class="fa-brands fa-whatsapp"></i> Chat
+              </button>
+            </div>
+          </div>
+        </article>
+
+        <!-- Toyota Cloth Roll -->
+        <article class="product-card" data-category="looms" id="toyota">
+          <div class="product-thumb">
+            <span class="product-badge-cat">1.a Looms Cloth Roll</span>
+            <img src="assets/images/products/toyota.webp" alt="Toyota Cloth Roll">
+          </div>
+          <div class="product-body">
+            <h3 class="product-title">Toyota Cloth Roll</h3>
+            <p class="product-desc">
+              Manufactured to exacting OEM standards for Toyota JAT610, JAT710, JAT810, and JAT910 high-speed airjet weaving machines.
+            </p>
+            <div class="product-specs-list">
+              <div class="spec-row"><span class="spec-label">Loom Models:</span><span class="spec-val">Toyota JAT710 / JAT810</span></div>
+              <div class="spec-row"><span class="spec-label">Material:</span><span class="spec-val">High Tensile Aluminium / MS</span></div>
+              <div class="spec-row"><span class="spec-label">Balancing:</span><span class="spec-val">Dynamic Balancing Tested</span></div>
+            </div>
+            <div class="product-actions">
+              <a href="product-detail.html?product=toyota" class="btn btn-primary"><i class="fa-solid fa-file-invoice"></i> Get Quote</a>
+              <button type="button" class="btn btn-outline wa-direct-chat" data-product="Toyota Cloth Roll">
+                <i class="fa-brands fa-whatsapp"></i> Chat
+              </button>
+            </div>
+          </div>
+        </article>
+
+        <!-- Picanol cloth Roll -->
+        <article class="product-card" data-category="looms" id="picanol">
+          <div class="product-thumb">
+            <span class="product-badge-cat">1.a Looms Cloth Roll</span>
+            <img src="assets/images/products/picanol.webp" alt="Picanol cloth Roll">
+          </div>
+          <div class="product-body">
+            <h3 class="product-title">Picanol Cloth Roll</h3>
+            <p class="product-desc">
+              European-grade precision take-up cloth roller for Picanol OmniPlus 800, OmniPlus Summum, OptiMax-i, and GT-Max rapier looms.
+            </p>
+            <div class="product-specs-list">
+              <div class="spec-row"><span class="spec-label">Loom Models:</span><span class="spec-val">Picanol OmniPlus / OptiMax</span></div>
+              <div class="spec-row"><span class="spec-label">Concentricity:</span><span class="spec-val">&lt; 0.015 mm</span></div>
+              <div class="spec-row"><span class="spec-label">Assembly:</span><span class="spec-val">Hot Interference Fit</span></div>
+            </div>
+            <div class="product-actions">
+              <a href="product-detail.html?product=picanol" class="btn btn-primary"><i class="fa-solid fa-file-invoice"></i> Get Quote</a>
+              <button type="button" class="btn btn-outline wa-direct-chat" data-product="Picanol Cloth Roll">
+                <i class="fa-brands fa-whatsapp"></i> Chat
+              </button>
+            </div>
+          </div>
+        </article>
+
+        <!-- Itema cloth roll -->
+        <article class="product-card" data-category="looms" id="itema">
+          <div class="product-thumb">
+            <span class="product-badge-cat">1.a Looms Cloth Roll</span>
+            <img src="assets/images/products/itema.webp" alt="Itema cloth roll">
+          </div>
+          <div class="product-body">
+            <h3 class="product-title">Itema Cloth Roll</h3>
+            <p class="product-desc">
+              Rigid, vibration-free cloth rollers engineered for Itema R9500, A9500, Silver, and Mythos rapier &amp; airjet weaving machines.
+            </p>
+            <div class="product-specs-list">
+              <div class="spec-row"><span class="spec-label">Loom Models:</span><span class="spec-val">Itema R9500 / A9500</span></div>
+              <div class="spec-row"><span class="spec-label">Widths:</span><span class="spec-val">190 cm to 380 cm</span></div>
+              <div class="spec-row"><span class="spec-label">Finish:</span><span class="spec-val">Anodized / Polished Steel</span></div>
+            </div>
+            <div class="product-actions">
+              <a href="product-detail.html?product=itema" class="btn btn-primary"><i class="fa-solid fa-file-invoice"></i> Get Quote</a>
+              <button type="button" class="btn btn-outline wa-direct-chat" data-product="Itema Cloth Roll">
+                <i class="fa-brands fa-whatsapp"></i> Chat
+              </button>
+            </div>
+          </div>
+        </article>
+
+        <!-- Waterjet cloth roll -->
+        <article class="product-card" data-category="looms" id="waterjet">
+          <div class="product-thumb">
+            <span class="product-badge-cat">1.a Looms Cloth Roll</span>
+            <img src="assets/images/products/waterjet.webp" alt="Waterjet cloth roll">
+          </div>
+          <div class="product-body">
+            <h3 class="product-title">Waterjet Cloth Roll</h3>
+            <p class="product-desc">
+              Engineered with moisture, rust, and chemical resistance for waterjet looms weaving high-density filament synthetic yarn.
+            </p>
+            <div class="product-specs-list">
+              <div class="spec-row"><span class="spec-label">Application:</span><span class="spec-val">Waterjet Looms (Synthetic)</span></div>
+              <div class="spec-row"><span class="spec-label">Corrosion Guard:</span><span class="spec-val">Zinc Plated / Epoxy Sealed</span></div>
+              <div class="spec-row"><span class="spec-label">Runout:</span><span class="spec-val">&lt; 0.02 mm</span></div>
+            </div>
+            <div class="product-actions">
+              <a href="product-detail.html?product=waterjet" class="btn btn-primary"><i class="fa-solid fa-file-invoice"></i> Get Quote</a>
+              <button type="button" class="btn btn-outline wa-direct-chat" data-product="Waterjet Cloth Roll">
+                <i class="fa-brands fa-whatsapp"></i> Chat
+              </button>
+            </div>
+          </div>
+        </article>
+
+        <!-- Sulzar cloth roll -->
+        <article class="product-card" data-category="looms" id="sulzar">
+          <div class="product-thumb">
+            <span class="product-badge-cat">1.a Looms Cloth Roll</span>
+            <img src="assets/images/products/sulzar.webp" alt="Sulzer cloth roll">
+          </div>
+          <div class="product-body">
+            <h3 class="product-title">Sulzer Cloth Roll</h3>
+            <p class="product-desc">
+              Heavy-duty projectile &amp; rapier cloth take-up rolls for Sulzer Rüti PU, TW11, P7100, P7200, and G6200/G6300 weaving systems.
+            </p>
+            <div class="product-specs-list">
+              <div class="spec-row"><span class="spec-label">Loom Models:</span><span class="spec-val">Sulzer PU / P7100 / G6200</span></div>
+              <div class="spec-row"><span class="spec-label">Loom Width:</span><span class="spec-val">Up to 400 cm Extra Wide</span></div>
+              <div class="spec-row"><span class="spec-label">Welding:</span><span class="spec-val">Lorch High-Strength Automated</span></div>
+            </div>
+            <div class="product-actions">
+              <a href="product-detail.html?product=sulzer" class="btn btn-primary"><i class="fa-solid fa-file-invoice"></i> Get Quote</a>
+              <button type="button" class="btn btn-outline wa-direct-chat" data-product="Sulzer Cloth Roll">
+                <i class="fa-brands fa-whatsapp"></i> Chat
+              </button>
+            </div>
+          </div>
+        </article>
+
+        <!-- Somet cloth roll -->
+        <article class="product-card" data-category="looms" id="somet">
+          <div class="product-thumb">
+            <span class="product-badge-cat">1.a Looms Cloth Roll</span>
+            <img src="assets/images/products/somet.webp" alt="Somet cloth roll">
+          </div>
+          <div class="product-body">
+            <h3 class="product-title">Somet Cloth Roll</h3>
+            <p class="product-desc">
+              High-accuracy take-up roller for Somet Thema 11, Thema Super Excel, Alpha, and Clipper rapier weaving machinery.
+            </p>
+            <div class="product-specs-list">
+              <div class="spec-row"><span class="spec-label">Loom Models:</span><span class="spec-val">Somet Thema / Super Excel</span></div>
+              <div class="spec-row"><span class="spec-label">Shaft Drive:</span><span class="spec-val">EN8 Precision CNC Machined</span></div>
+              <div class="spec-row"><span class="spec-label">Dynamic Balance:</span><span class="spec-val">Zero-Vibration Standard</span></div>
+            </div>
+            <div class="product-actions">
+              <a href="product-detail.html?product=somet" class="btn btn-primary"><i class="fa-solid fa-file-invoice"></i> Get Quote</a>
+              <button type="button" class="btn btn-outline wa-direct-chat" data-product="Somet Cloth Roll">
+                <i class="fa-brands fa-whatsapp"></i> Chat
+              </button>
+            </div>
+          </div>
+        </article>
+        <!-- MS Guide Roller -->
+
+        <!-- MS Cooling & Heating Roller -->
+
+        <!-- MS Drum Roller -->
+
+        <!-- MS Knurling Roller -->
+
+        <!-- MS Grooved Roller -->
+
+        <!-- NIP Roller -->
+
+        <!-- Load Cell Roller -->
+        <!-- Hard Chrome Plated Roller -->
+
+        <!-- Natural Rubber Roller -->
+
+        <!-- Teflon Coated Roller -->
+
+        <!-- Polyurethane rubber Roller -->
+
+        <!-- Abonite Drum Roller -->
+
+        <!-- Zinc Plated Roller -->
+        <!-- SS Guide Roller -->
+
+        <!-- SS Scroll Roller -->
+
+        <!-- SS Cladded Roller -->
+
+        <!-- SS Cooling & Heating Roller -->
+
+      </div>
+
+    </div>
+  </main>
+
+  <!-- Technical Customization Callout -->
+  <section style="background: var(--primary-navy); color: #ffffff; padding: 60px 0;">
+    <div class="container" style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 30px;">
+      <div>
+        <span class="badge-tag light"><i class="fa-solid fa-ruler"></i> Custom Manufacturing</span>
+        <h3 style="font-family: var(--font-heading); font-size: 1.8rem; font-weight: 800; margin-bottom: 8px;">
+          Have Specific Drawings or Machine Dimensions?
+        </h3>
+        <p style="color: #cbd5e1; max-width: 650px;">
+          Our technical team evaluates your CAD drawings, shaft fits, bearing clearances, and coating requirements to provide accurate engineering estimates.
+        </p>
+      </div>
+      <div style="display: flex; gap: 15px; flex-wrap: wrap;">
+        <a href="contact.html#quote-form" class="btn btn-primary">
+          <i class="fa-solid fa-file-invoice"></i> Submit Custom Specs
+        </a>
+        <a href="tel:+917405456380" class="btn btn-outline-white">
+          <i class="fa-solid fa-phone"></i> Call +91 74054 56380
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer-main">
+    <div class="container">
+      <div class="footer-top-grid">
+        <div class="footer-brand">
+          <a href="index.html">
+            <img src="assets/images/logo.png" alt="Pragati Engineers" style="height: 50px; background: #ffffff; padding: 6px 12px; border-radius: 6px;">
+          </a>
+          <p>
+            Pragati Engineers is a trusted manufacturer of Precision Industrial Rollers &amp; Loom Cloth Rollers. Founded on technical expertise dating back to 1985 and established in 2010 in Ahmedabad.
+          </p>
+          <div class="footer-units">
+            <div class="footer-unit-box">
+              <strong>Unit 1 – Loom Cloth Rollers:</strong>
+              A-6, Swarnim Industrial Park, Bakrol Bujrang Road, Bakrol, Ahmedabad - 382430
+            </div>
+            <div class="footer-unit-box">
+              <strong>Unit 2 – Precision Rollers:</strong>
+              A-119, Swarnim Industrial Park, Bakrol Bujrang Road, Bakrol, Ahmedabad - 382430
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <h4 class="footer-title">Quick Links</h4>
+          <ul class="footer-links-list">
+            <li><a href="index.html"><i class="fa-solid fa-chevron-right"></i> Home</a></li>
+            <li><a href="about.html"><i class="fa-solid fa-chevron-right"></i> About Our Journey</a></li>
+            <li><a href="products.html"><i class="fa-solid fa-chevron-right"></i> Products Catalog</a></li>
+            <li><a href="infrastructure.html"><i class="fa-solid fa-chevron-right"></i> In-House Facilities</a></li>
+            <li><a href="contact.html"><i class="fa-solid fa-chevron-right"></i> Contact Us</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="footer-title">Product Categories</h4>
+          <ul class="footer-links-list">
+            <li><a href="#looms"><i class="fa-solid fa-chevron-right"></i> Looms Cloth Rolls</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="footer-title">Get in Touch</h4>
+          <div class="footer-contact-item">
+            <div class="footer-contact-icon"><i class="fa-solid fa-phone"></i></div>
+            <div class="footer-contact-info">
+              <span style="font-size: 0.8rem; color: #94a3b8; display: block;">Sales &amp; Inquiries:</span>
+              <a href="tel:+917405456380">+91 74054 56380</a>
+              <a href="tel:+917048207620">+91 70482 07620</a>
+            </div>
+          </div>
+          <div class="footer-contact-item">
+            <div class="footer-contact-icon"><i class="fa-solid fa-envelope"></i></div>
+            <div class="footer-contact-info">
+              <span style="font-size: 0.8rem; color: #94a3b8; display: block;">Official Emails:</span>
+              <a href="mailto:sales@pragatiroller.com">sales@pragatiroller.com</a>
+              <a href="mailto:Pragativ4engineers@gmail.com">Pragativ4engineers@gmail.com</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div class="footer-bottom-inner">
+          <p>© 2026 Pragati Engineers. All Rights Reserved.</p>
+          <p style="font-size: 0.82rem; color: #64748b;">
+            A-6 &amp; A-119, Swarnim Industrial Park, Bakrol Bujrang Road, Bakrol, Ahmedabad - 382430, Gujarat
+          </p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Floating Quick Actions -->
+  <aside class="floating-actions" aria-label="Quick Actions">
+    <a href="https://api.whatsapp.com/send?phone=917405456380&text=Hello%20Pragati%20Engineers,%20I%20am%20interested%20in%20your%20Precision%20Rollers" target="_blank" class="floating-btn btn-float-wa" aria-label="Chat on WhatsApp">
+      <i class="fa-brands fa-whatsapp"></i>
+      <span class="tooltip-float">WhatsApp Chat</span>
+    </a>
+    <a href="contact.html#quote-form" class="floating-btn btn-float-quote" aria-label="Request Instant Quote">
+      <i class="fa-solid fa-file-invoice"></i>
+      <span class="tooltip-float">Request Quote</span>
+    </a>
+    <button type="button" class="floating-btn btn-float-top" id="btnFloatTop" aria-label="Back to top">
+      <i class="fa-solid fa-arrow-up"></i>
+    </button>
+  </aside>
+
+  <!-- Interactive Quote Request Modal -->
+  <!-- Interactive Product Detail & Technical Quote Modal -->
+  <div class="modal-overlay" id="quoteModal" role="dialog" aria-modal="true" aria-labelledby="quoteModalTitle">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-header">
+        <div class="modal-product-header">
+          <span class="modal-badge-cat" id="modalProductBadge">Looms Cloth Roll</span>
+          <h3 class="modal-title" id="quoteModalTitle">Tsudakoma Cloth Roll</h3>
+        </div>
+        <button type="button" class="modal-close-btn modal-close-trigger" aria-label="Close modal">&times;</button>
+      </div>
+
+      <div class="modal-body">
+        <!-- Product Showcase: Image + Detailed Specs -->
+        <div class="modal-product-showcase" id="modalProductShowcase">
+          <div class="modal-product-img-col">
+            <div class="modal-img-wrapper">
+              <img id="modalProductImg" src="assets/images/products/tsudakoma.webp" alt="Product Preview">
+            </div>
+            <div class="modal-guarantee-pill">
+              <i class="fa-solid fa-certificate"></i> Tested Dynamic Balancing • Runout &lt; 0.01mm
+            </div>
+          </div>
+          
+          <div class="modal-product-details-col">
+            <h4 class="modal-details-heading">Technical Overview &amp; Specifications</h4>
+            <p class="modal-product-desc" id="modalProductDesc">
+              Custom-engineered cloth take-up rollers for Japanese Tsudakoma airjet and waterjet weaving looms with perfect concentricity.
+            </p>
+            <div class="modal-product-specs" id="modalProductSpecs">
+              <!-- Dynamically populated spec rows -->
+            </div>
+          </div>
+        </div>
+
+        <!-- Action Buttons Section Below Product Details -->
+        <div class="modal-action-buttons-bar">
+          <a href="https://api.whatsapp.com/send?phone=917405456380" id="modalWaBtn" class="btn btn-whatsapp modal-action-btn" target="_blank">
+            <i class="fa-brands fa-whatsapp"></i> Instant WhatsApp Quote
+          </a>
+          <button type="button" id="modalToggleQuoteFormBtn" class="btn btn-primary modal-action-btn">
+            <i class="fa-solid fa-file-invoice"></i> Request Written Quote
+          </button>
+        </div>
+
+        <!-- Collapsible Online RFQ Form -->
+        <div class="modal-collapsible-form" id="modalCollapsibleForm" style="display: none;">
+          <div class="form-divider">
+            <span>Or Submit Technical RFQ Online</span>
+          </div>
+          <form id="quoteForm">
+            <input type="hidden" id="modalHiddenProduct" value="Tsudakoma Cloth Roll">
+            <div class="form-row">
+              <div class="form-group">
+                <label for="modalName" class="form-label">Full Name *</label>
+                <input type="text" id="modalName" class="form-control" placeholder="Enter your name" required>
+              </div>
+              <div class="form-group">
+                <label for="modalPhone" class="form-label">Phone / WhatsApp Number *</label>
+                <input type="tel" id="modalPhone" class="form-control" placeholder="+91 98765 43210" required>
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="modalEmail" class="form-label">Email Address *</label>
+                <input type="email" id="modalEmail" class="form-control" placeholder="name@company.com" required>
+              </div>
+              <div class="form-group">
+                <label for="modalCompany" class="form-label">Company / Mill Name</label>
+                <input type="text" id="modalCompany" class="form-control" placeholder="Company / Mill name">
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="modalNotes" class="form-label">Roller Dimensions &amp; Technical Requirements</label>
+              <textarea id="modalNotes" class="form-control" rows="2" placeholder="Specify Outer Diameter (OD), Face Length, Shaft Specs, Machine Model, or special coating requirements..."></textarea>
+            </div>
+            <div style="display: flex; justify-content: flex-end; gap: 12px; margin-top: 15px;">
+              <button type="button" class="btn btn-outline modal-close-trigger">Cancel</button>
+              <button type="submit" class="btn btn-primary">
+                <i class="fa-solid fa-paper-plane"></i> Submit Quotation Request
+              </button>
+            </div>
+          </form>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
