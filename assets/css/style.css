@@ -340,9 +340,17 @@ button, input, select, textarea {
 }
 
 .brand-logo img {
-  height: 54px;
-  width: auto;
-  object-fit: contain;
+  height: 41px;
+  width: 180px;
+  object-fit: cover;
+  object-position: left top;
+  background: #ffffff;
+}
+
+.footer-main img[src="assets/images/logo.png"] {
+  width: 194px;
+  object-fit: cover;
+  object-position: left top;
   background: #ffffff;
 }
 
