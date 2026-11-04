@@ -88,7 +88,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
     productCards.forEach(card => {
       const matchesCategory = activeCategory === 'all' || card.getAttribute('data-category') === activeCategory;
-      const searchableText = ['.product-title', '.product-desc', '.product-specs-list']
+      const searchableText = ['.product-title', '.product-desc', '.product-badge-cat']
         .map(selector => card.querySelector(selector)?.textContent.toLowerCase() || '')
         .join(' ');
       card.style.display = matchesCategory && searchableText.includes(term) ? 'flex' : 'none';
@@ -264,28 +264,40 @@ document.addEventListener('DOMContentLoaded', () => {
     'sulzer cloth roll': 'sulzer',
     'sulzer / somet cloth roll': 'sulzer',
     'sulzer & somet cloth roll': 'sulzer',
+    'sulzar cloth roll': 'sulzer',
     'somet cloth roll': 'somet',
-    'mild steel precision rollers': 'ms-guide',
-    'mild steel roller range': 'ms-guide',
-    'mild steel guide roller': 'ms-guide',
-    'ms cooling & heating roller': 'ms-cooling',
-    'mild steel drum roller': 'ms-drum',
-    'ms knurling & grooved roller': 'ms-knurling',
-    'coated & plated rollers': 'hard-chrome',
-    'hard chrome plated roller': 'hard-chrome',
-    'natural rubber coated roller': 'natural-rubber',
-    'teflon / ptfe coated roller': 'teflon-coated',
-    'stainless steel precision rollers': 'ss-guide',
-    'stainless steel (ss) guide roller': 'ss-guide',
-    'ss spiral scroll grooved roller': 'ss-scroll'
+    'standard chrome plated roller': 'standard-chrome-roller',
+    'standard chrome roller': 'standard-chrome-roller',
+    'chrome roller': 'standard-chrome-roller',
+    'mirror finished chrome plated roller': 'mirror-chrome-roller',
+    'mirror chrome roller': 'mirror-chrome-roller',
+    'matt finished chrome plated roller': 'matt-chrome-roller',
+    'matt chrome roller': 'matt-chrome-roller',
+    'ms cooling roller': 'ms-cooling-roller',
+    'steam or heating roller': 'steam-heating-roller',
+    'steam roller': 'steam-heating-roller',
+    'jacketed cooling roller': 'jacketed-cooling-roller',
+    'stainless steel guide roller': 'ss-guide-roller',
+    'ss guide roller': 'ss-guide-roller',
+    'ss cladded roller': 'ss-cladded-roller',
+    'cladded batching trolley roller': 'cladded-batching-trolly-roller',
+    'ss fluted roller': 'ss-fluted-roller',
+    'ss turned roller': 'ss-turned-roller',
+    'aluminium guide roller': 'aluminium-guide-roller',
+    'aluminium anodised roller': 'aluminium-anodized-roller',
+    'aluminium anodized roller': 'aluminium-anodized-roller',
+    'ss scroll roller': 'ss-scroll-roller',
+    'aluminium scroll roller': 'aluminium-scroll-roller',
+    'anti deflection roller': 'anti-deflection-roller',
+    'nip roller': 'nip-roller',
+    'coated industrial rollers': 'coated-rollers',
+    'coated rollers': 'coated-rollers'
   };
 
   function resolveProductSlug(productName, card) {
     if (card && card.id) {
       const cid = card.id.toLowerCase().trim();
       if (cid === 'sulzar') return 'sulzer';
-      if (cid.startsWith('ms-cooling')) return 'ms-cooling';
-      if (cid.startsWith('ss-cooling')) return 'ss-guide';
       return cid;
     }
     const clean = (productName || '').toLowerCase().trim();

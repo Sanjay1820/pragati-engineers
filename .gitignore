@@ -1,9 +1,9 @@
 node_modules/
-dist-home/
 .vercel/
 scratch/
 *.log
 /*.png
+for website/images/
 .env
 .env.*
 !.env.example

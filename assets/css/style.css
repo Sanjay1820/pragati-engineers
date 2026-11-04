@@ -2355,3 +2355,111 @@ textarea.form-control {
 
 
 
+
+
+/* Target Industries & Applications Column / Row */
+.product-apps-row {
+  margin-top: 10px;
+  padding-top: 8px;
+  border-top: 1px solid #e2e8f0;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.apps-label {
+  font-size: 0.78rem;
+  font-weight: 700;
+  color: #1e3a8a;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+
+.apps-val {
+  font-size: 0.8rem;
+  color: #334155;
+  line-height: 1.4;
+  font-weight: 500;
+}
+
+.engineering-pillars-banner {
+  background: #ffffff;
+  border: 1px solid var(--steel-border);
+  border-radius: var(--radius-lg);
+  padding: 24px;
+  margin-bottom: 35px;
+  box-shadow: var(--shadow-sm);
+}
+
+.pillars-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 16px;
+  margin-top: 16px;
+}
+
+.pillar-card-sm {
+  background: var(--steel-light);
+  border-radius: var(--radius-sm);
+  padding: 14px 16px;
+  border-left: 3px solid var(--brand-red);
+}
+
+.pillar-card-sm h4 {
+  font-size: 0.92rem;
+  font-weight: 700;
+  color: var(--primary-navy);
+  margin-bottom: 4px;
+}
+
+.pillar-card-sm p {
+  font-size: 0.82rem;
+  color: var(--steel-slate);
+  margin: 0;
+  line-height: 1.4;
+}
+
+/* 4 Product Cards Grid for Homepage */
+.products-grid-4 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 24px;
+}
+
+@media (max-width: 1100px) {
+  .products-grid-4 {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+}
+
+@media (max-width: 640px) {
+  .products-grid-4 {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+}
+
+/* 6 Product Cards Grid for Homepage (3 on top, 3 on bottom) */
+.products-grid-6 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 28px;
+}
+
+@media (max-width: 992px) {
+  .products-grid-6 {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+}
+
+@media (max-width: 600px) {
+  .products-grid-6 {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+}
