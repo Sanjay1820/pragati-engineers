@@ -207,7 +207,7 @@ document.addEventListener('DOMContentLoaded', () => {
         modalImg.alt = 'Pragati Engineers Precision Rollers';
       }
       if (modalDesc) {
-        modalDesc.innerText = 'Manufacturer of Precision Industrial Rollers & Weaving Loom Cloth Rolls since 1985. Request custom quotes with micro-tolerance concentricity (< 0.01mm) and dynamic balancing.';
+        modalDesc.innerText = 'Manufacturer of Precision Industrial Rollers & Weaving Loom Cloth Rolls since 2010. Request custom quotes with micro-tolerance concentricity (< 0.01mm) and dynamic balancing.';
       }
       if (modalSpecs) {
         modalSpecs.innerHTML = `

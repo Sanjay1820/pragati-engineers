@@ -1,13 +1,13 @@
 # Pragati Engineers – Precision Industrial Rollers
 
-Official corporate website for **Pragati Engineers**, precision industrial roller manufacturer based in Ahmedabad, Gujarat, India (Est. 1985).
+Official corporate website for **Pragati Engineers**, precision industrial roller manufacturer based in Ahmedabad, Gujarat, India (Est. 2010).
 
 ---
 
 ## 🌐 Complete Website Structure
 
 - **Home Page (`index.html`)**: Features company hero slider, 6 distinct category flagship products (Tsudakoma cloth roll, Hard Chrome roller, Stainless Steel guide roller, MS Cooling roller, Aluminium guide roller, SS Scroll expander), 4 quality assurance pillars, manufacturing infrastructure summary, client testimonials, and inquiry call-to-actions.
-- **About Us (`about.html`)**: Complete company background since 1985, vision, core values, leadership team, and manufacturing philosophy across our 2 specialized Ahmedabad units.
+- **About Us (`about.html`)**: Complete company background since 2010, vision, core values, leadership team, and manufacturing philosophy across our 2 specialized Ahmedabad units.
 - **Products Catalog (`products.html`)**: Complete 25+ product technical catalog with interactive category filters:
   - Looms Cloth Rolls (Tsudakoma, Toyota, Picanol, Sulzer, Itema, Somet, Waterjet)
   - Hard Chrome Plated Rollers
