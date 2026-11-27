@@ -809,8 +809,8 @@ button, input, select, textarea {
   max-height: 180px;
   width: auto;
   object-fit: contain;
-  transform-origin: 20% 80%;
-  transform: scale(1.75);
+  transform-origin: 15% 85%;
+  transform: scale(2.05) translate(8%, -4%);
   transition: transform var(--transition-smooth);
   position: relative;
   z-index: 1;
@@ -818,7 +818,7 @@ button, input, select, textarea {
 }
 
 .product-card:hover .product-thumb img {
-  transform: scale(1.85);
+  transform: scale(2.18) translate(8%, -4%);
 }
 
 .product-badge-cat {
@@ -1953,6 +1953,8 @@ textarea.form-control {
   align-items: center;
   justify-content: center;
   background: radial-gradient(circle at center, #ffffff 40%, #f1f5f9 100%);
+  overflow: hidden;
+  position: relative;
 }
 
 .detail-main-img-box img {
@@ -1961,7 +1963,13 @@ textarea.form-control {
   max-width: 100%;
   object-fit: contain;
   mix-blend-mode: multiply;
+  transform-origin: 15% 85%;
+  transform: scale(2.05) translate(8%, -4%);
   transition: transform 0.3s ease, opacity 0.2s ease;
+}
+
+.detail-main-stage:hover .detail-main-img-box img {
+  transform: scale(2.18) translate(8%, -4%);
 }
 
 .detail-stage-footer {

@@ -720,11 +720,11 @@ document.addEventListener('DOMContentLoaded', () => {
 
         if (detailMainImg) {
           detailMainImg.style.opacity = '0.3';
-          detailMainImg.style.transform = 'scale(0.96)';
+          
           setTimeout(() => {
             detailMainImg.src = imgObj.src;
             detailMainImg.style.opacity = '1';
-            detailMainImg.style.transform = 'scale(1)';
+            
           }, 150);
         }
       });
