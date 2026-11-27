@@ -809,8 +809,8 @@ button, input, select, textarea {
   max-height: 180px;
   width: auto;
   object-fit: contain;
-  transform-origin: 15% 85%;
-  transform: scale(2.05) translate(8%, -4%);
+  transform-origin: 20% 80%;
+  transform: scale(1.42);
   transition: transform var(--transition-smooth);
   position: relative;
   z-index: 1;
@@ -818,7 +818,7 @@ button, input, select, textarea {
 }
 
 .product-card:hover .product-thumb img {
-  transform: scale(2.18) translate(8%, -4%);
+  transform: scale(1.52);
 }
 
 .product-badge-cat {
@@ -1963,13 +1963,13 @@ textarea.form-control {
   max-width: 100%;
   object-fit: contain;
   mix-blend-mode: multiply;
-  transform-origin: 15% 85%;
-  transform: scale(2.05) translate(8%, -4%);
+  transform-origin: 20% 80%;
+  transform: scale(1.42);
   transition: transform 0.3s ease, opacity 0.2s ease;
 }
 
 .detail-main-stage:hover .detail-main-img-box img {
-  transform: scale(2.18) translate(8%, -4%);
+  transform: scale(1.52);
 }
 
 .detail-stage-footer {
@@ -2565,12 +2565,3 @@ textarea.form-control {
   }
 }
 
-/* Adjustment for aluminium scroll expander roller to center starting half */
-img[src*="aluminium_scroll_roller"] {
-  transform: scale(2.05) translate(-16%, -4%) !important;
-}
-
-.detail-main-stage:hover img[src*="aluminium_scroll_roller"],
-.product-card:hover img[src*="aluminium_scroll_roller"] {
-  transform: scale(2.18) translate(-16%, -4%) !important;
-}
