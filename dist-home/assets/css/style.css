@@ -2564,3 +2564,13 @@ textarea.form-control {
     font-size: 1.65rem;
   }
 }
+
+/* Adjustment for aluminium scroll expander roller to center starting half */
+img[src*="aluminium_scroll_roller"] {
+  transform: scale(2.05) translate(-16%, -4%) !important;
+}
+
+.detail-main-stage:hover img[src*="aluminium_scroll_roller"],
+.product-card:hover img[src*="aluminium_scroll_roller"] {
+  transform: scale(2.18) translate(-16%, -4%) !important;
+}
