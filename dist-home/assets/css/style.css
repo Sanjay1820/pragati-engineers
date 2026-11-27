@@ -1260,6 +1260,23 @@ button, input, select, textarea {
 /* ===================================================================
    INTERACTIVE QUOTE MODAL
    =================================================================== */
+
+.quote-modal-backdrop {
+  position: fixed;
+  inset: 0;
+  background: rgba(10, 30, 56, 0.75);
+  backdrop-filter: blur(6px);
+  display: none !important;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+  padding: 20px;
+}
+
+.quote-modal-backdrop.active {
+  display: flex !important;
+}
+
 .modal-overlay {
   position: fixed;
   inset: 0;
