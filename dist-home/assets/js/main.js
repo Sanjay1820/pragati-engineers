@@ -446,16 +446,20 @@ document.addEventListener('DOMContentLoaded', () => {
       counters.forEach(counter => {
         const target = +counter.getAttribute('data-target');
         const isYear = counter.getAttribute('data-isyear') === 'true';
-        let count = isYear ? 1900 : 0;
-        const speed = isYear ? 4 : Math.ceil(target / 40);
+        const suffix = counter.getAttribute('data-suffix') || '';
+        const useComma = counter.getAttribute('data-comma') === 'true';
+        let count = isYear ? 1990 : 0;
+        const speed = isYear ? 1 : Math.max(1, Math.ceil(target / 45));
 
         const updateCount = () => {
           count += speed;
           if (count < target) {
-            counter.innerText = count;
+            const formatted = useComma ? count.toLocaleString('en-US') : count;
+            counter.innerText = formatted + suffix;
             requestAnimationFrame(updateCount);
           } else {
-            counter.innerText = target;
+            const formatted = useComma ? target.toLocaleString('en-US') : target;
+            counter.innerText = formatted + suffix;
           }
         };
         updateCount();
