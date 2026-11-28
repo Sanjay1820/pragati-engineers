@@ -823,12 +823,12 @@ button, input, select, textarea {
 
 /* Looms Cloth Rolls Specific Super-Zoom Close-Up */
 .product-card[data-category="looms"] .product-thumb img {
-  transform-origin: 22% 78%;
-  transform: scale(2.65);
+  transform-origin: 22% 68%;
+  transform: scale(2.65) translateY(-28px);
 }
 
 .product-card[data-category="looms"]:hover .product-thumb img {
-  transform: scale(2.78);
+  transform: scale(2.78) translateY(-28px);
 }
 
 .product-badge-cat {
@@ -2212,6 +2212,10 @@ textarea.form-control {
   display: flex;
   flex-direction: column;
   gap: 3px;
+}
+
+.spec-card-item:last-child:nth-child(odd) {
+  grid-column: 1 / -1;
 }
 
 .spec-prop-label {

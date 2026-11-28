@@ -26,13 +26,12 @@ document.addEventListener('DOMContentLoaded', () => {
       applications: 'Japanese Tsudakoma airjet & waterjet looms, continuous denim, bottom-weight, shirting, filament fabrics, high-speed textile mills.',
       specs: [
         { label: 'Loom Width Range', val: '170 cm to 390 cm (Customizable up to 400 cm)' },
-        { label: 'Barrel Material', val: 'Pure Grade High-Tensile Aluminium Alloy / Seamless MS' },
+        { label: 'Material', val: 'Pure Grade Aluminium Pipe' },
         { label: 'Bush Construction', val: 'Metal Moulded Cast Bushes for tight fitment & strength' },
-        { label: 'Welding Technology', val: 'Dual-Sided Pulsing Welding for improved structural integrity' },
-        { label: 'Drive Mechanism', val: 'EN-8 Grade Gears with Controlled Hardness & Precision Keyways' },
-        { label: 'Dynamic Balancing', val: 'Tested to ISO 1940 Grade G2.5 (< 0.01 mm Runout)' },
+        { label: 'Welding Technology', val: 'Pulsing Welding for improved structural integrity' },
+        { label: 'Drive Mechanism', val: '25 Teeth EN-8 Grade Gears with Controlled Hardness' },
         { label: 'Surface Profile', val: 'Longitudinal Fluted / Diamond Knurled / Non-Slip Grip' },
-        { label: 'Compatible Models', val: 'Tsudakoma ZA205i, ZA209i, ZAX, ZAX9100/9200, ZW Series' }
+        { label: 'Compatible Models', val: 'Tsudakoma ZA205i, ZA209i, ZAX, ZAX9100/9200, ZW Series, Neo Series' }
       ]
     },
     'toyota': {
