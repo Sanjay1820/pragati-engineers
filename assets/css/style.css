@@ -809,8 +809,8 @@ button, input, select, textarea {
   max-height: 180px;
   width: auto;
   object-fit: contain;
-  transform-origin: 12% 88%;
-  transform: scale(2.2);
+  transform-origin: 20% 80%;
+  transform: scale(1.42);
   transition: transform var(--transition-smooth);
   position: relative;
   z-index: 1;
@@ -818,7 +818,17 @@ button, input, select, textarea {
 }
 
 .product-card:hover .product-thumb img {
-  transform: scale(2.32);
+  transform: scale(1.52);
+}
+
+/* Looms Cloth Rolls Specific Super-Zoom Close-Up */
+.product-card[data-category="looms"] .product-thumb img {
+  transform-origin: 22% 78%;
+  transform: scale(2.65);
+}
+
+.product-card[data-category="looms"]:hover .product-thumb img {
+  transform: scale(2.78);
 }
 
 .product-badge-cat {
