@@ -809,8 +809,8 @@ button, input, select, textarea {
   max-height: 180px;
   width: auto;
   object-fit: contain;
-  transform-origin: 20% 80%;
-  transform: scale(1.42);
+  transform-origin: 12% 88%;
+  transform: scale(2.2);
   transition: transform var(--transition-smooth);
   position: relative;
   z-index: 1;
@@ -818,7 +818,7 @@ button, input, select, textarea {
 }
 
 .product-card:hover .product-thumb img {
-  transform: scale(1.52);
+  transform: scale(2.32);
 }
 
 .product-badge-cat {
